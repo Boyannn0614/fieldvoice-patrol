@@ -1,0 +1,33 @@
+{
+  "method": "RGB blue-block simulation",
+  "disclaimer": "Color blocks simulate standing water; this is not real-field water recognition.",
+  "image_size": {
+    "width": 960,
+    "height": 640
+  },
+  "regions": [
+    {
+      "region": "top_left",
+      "blue_ratio": 0.0513,
+      "level": "watch"
+    },
+    {
+      "region": "top_right",
+      "blue_ratio": 0.3145,
+      "level": "warning"
+    },
+    {
+      "region": "bottom_left",
+      "blue_ratio": 0.1164,
+      "level": "watch"
+    },
+    {
+      "region": "bottom_right",
+      "blue_ratio": 0.0,
+      "level": "normal"
+    }
+  ],
+  "highest_risk_region": "top_right",
+  "highest_blue_ratio": 0.3145,
+  "overall_level": "warning"
+}
