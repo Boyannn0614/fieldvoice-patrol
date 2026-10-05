@@ -56,9 +56,9 @@ python create_sample_field.py
 ### 3. 執行辨識
 
 ```bash
-python vision_demo.py samples/simulated_field.png \
-  --output-image outputs/annotated_result.png \
-  --output-json outputs/result.json
+python vision_demo.py simulated_field.png \
+  --output-image annotated_result.png \
+  --output-json sample_result.json
 ```
 
 程式會把畫面切成左上、右上、左下、右下四區，計算各區藍色像素比例，再輸出 `normal`、`watch` 或 `warning`。RGB 門檻可依拍攝燈光調整。
